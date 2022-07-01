@@ -3,33 +3,11 @@ body {
     font-family: 'Playfair Display', 'serif';
 }
 
-#borscht {
-    background-color: lightgreen;
-    border-color: green;
-}
-
-#holubtsi {
-    background-color: lightblue;
-    border-color: blue;
-}
-
-#vinegret {
-    background-color: lightpink;
-    border-color: rgb(206, 70, 70);
-}
-
-#varenyky {
-    background-color: lightcyan;
-    border-color: rgb(93, 209, 209);
-}
-
-#plov {
-    background-color: rgb(160, 126, 160);
-    border-color: purple;
-}
-
-img {
-    border-radius: 15px;
+.blocks {
+    border: solid;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 5px;
 }
 
 h1, h3 {
@@ -45,27 +23,39 @@ a {
     text-decoration: none;
 }
 
+img {
+    border-radius: 15px;
+}
+
 .recipe-link img{
-  height: 250px;
-  width: 300px;
+    height: 250px;
+    width: 300px;
+  }
+
+#borscht {
+    background-color: lightgreen;
+    border-color: green;
+}
+
+#holubtsi {
+    background-color: lightblue;
+    border-color: blue;
+}
+
+#vinegret {
+    background-color: lightpink;
+    border-color: rgb(206, 70, 70);
 }
 
 .recipe-link {
     width: 350px;
-    border: solid;
-    border-radius: 25px;
-    margin: 10px;
-    padding: 5px;
+
     text-align: center;
 }
 
-.row {
+.row, .recipe-first, .recipe-second {
     display: flex;
     justify-content: center;
-}
-
-.recipe-first {
-    display: flex;
 }
 
 .recipe-first img {
@@ -78,36 +68,18 @@ a {
 }
 
 .description {
-    margin: 10px;
-    padding: 5px;
-    border: solid;
-    border-radius: 25px;
     background-color: lightgreen;
     border-color: green;
 }
 
-.recipe-second {
-    display: flex;
-    justify-content: center;
-}
-
 .ingredients {
-    border: solid;
-    border-radius: 25px;
     background-color: lightpink;
     border-color: rgb(206, 70, 70);
     width: 40%;
-    padding: 5px;
-    margin: 10px;
-
 }
 
 .steps {
-    border: solid;
-    border-radius: 25px;
     background-color: lightblue;
     border-color: blue;
     width: 60%;
-    padding: 5px;
-    margin: 10px;
 }

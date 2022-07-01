@@ -1,6 +1,7 @@
 body {
     background-color: rgba(235, 179, 25, 0.322);
     font-family: 'Playfair Display', 'serif';
+    font-size: 16px;
 }
 
 .blocks {
